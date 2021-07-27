@@ -2,9 +2,12 @@
 
 // Spacing
 .container {
-  max-width: rem(1);
+  max-width: rem(1170);
   margin: 0 auto;
-
+  &--lg {
+    padding-top: rem(262);
+    padding-bottom: rem(262);
+  }
   //   &--pall {
   //     padding-top: 4.375rem;
   //     padding-right: 1.5rem;

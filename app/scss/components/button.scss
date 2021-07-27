@@ -1,0 +1,44 @@
+@use '../utils' as *;
+
+.btn {
+  font-family: var(--font--overpass);
+  font-weight: 800;
+  font-size: rem(14);
+  padding: rem(15) rem(42);
+  border: rem(2) solid var(--color--bg);
+  border-radius: rem(6);
+
+  &--bg {
+    font-size: rem(20);
+    padding: rem(26) rem(60);
+    transition: 0.4s;
+
+    &:hover {
+      border-radius: rem(5);
+      color: hsl(0, 0%, 100%);
+      background-color: var(--color--bg);
+    }
+  }
+
+  &--under {
+    position: relative;
+    border: none;
+    padding: rem(12) 0;
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: rem(4);
+      transition: 0.4s;
+    }
+
+    &:hover::before {
+      width: 100%;
+      background-color: var(--color--bg);
+    }
+  }
+}

@@ -11,6 +11,42 @@ p {
   margin: 0;
 }
 
+h1,
+h2 {
+  font-family: var(--font--overpass);
+  font-weight: 800;
+}
+
+h1,
+h3,
+p {
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}
+
+h1 {
+  font-size: rem(45);
+}
+
+h2 {
+  font-size: rem(17);
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: rem(30);
+}
+
+h4 {
+  font-size: rem(24);
+  text-transform: capitalize;
+}
+
+h5 {
+  font-size: rem(18);
+}
+
 /* Chỉ cho phép textarea được kéo dãn theo chiều dọc, trông sẽ đẹp hơn, không làm xấu layout */
 textarea {
   resize: vertical;
