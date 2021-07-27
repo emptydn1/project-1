@@ -4,6 +4,19 @@
 .container {
   max-width: rem(1170);
   margin: 0 auto;
+
+  &--md {
+    padding-top: rem(30);
+    padding-right: rem(20);
+    padding-left: rem(20);
+
+    @include breakpoint(large) {
+      padding-top: rem(62);
+      padding-left: rem(0);
+      padding-right: rem(0);
+    }
+  }
+
   &--lg {
     padding-top: rem(262);
     padding-bottom: rem(262);

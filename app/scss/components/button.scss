@@ -1,23 +1,29 @@
 @use '../utils' as *;
 
 .btn {
+  display: inline-block;
   font-family: var(--font--overpass);
   font-weight: 800;
   font-size: rem(14);
+  text-align: center;
   padding: rem(15) rem(42);
   border: rem(2) solid var(--color--bg);
   border-radius: rem(6);
+  transition: 0.4s;
+
+  &:hover {
+    border-radius: rem(5);
+    color: hsl(0, 0%, 100%);
+    background-color: var(--color--bg);
+  }
 
   &--bg {
     font-size: rem(20);
     padding: rem(26) rem(60);
     transition: 0.4s;
-
-    &:hover {
-      border-radius: rem(5);
-      color: hsl(0, 0%, 100%);
-      background-color: var(--color--bg);
-    }
+    border-radius: rem(5);
+    color: hsl(0, 0%, 100%);
+    background-color: var(--color--bg);
   }
 
   &--under {

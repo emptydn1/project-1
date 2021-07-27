@@ -47,6 +47,10 @@ h5 {
   font-size: rem(18);
 }
 
+p {
+  opacity: 0.7;
+}
+
 /* Chỉ cho phép textarea được kéo dãn theo chiều dọc, trông sẽ đẹp hơn, không làm xấu layout */
 textarea {
   resize: vertical;
