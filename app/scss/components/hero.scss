@@ -1,7 +1,11 @@
 @use '../utils' as *;
 
 .hero {
-  background-image: linear-gradient(hsl(224, 28%, 92%), hsl(210, 100%, 99%));
+  background-image: linear-gradient(
+    to bottom,
+    hsl(224, 28%, 92%),
+    hsl(210, 100%, 99%)
+  );
 
   .container {
     @include breakpoint(large) {
