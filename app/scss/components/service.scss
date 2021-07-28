@@ -6,35 +6,6 @@
   .container--md {
     position: relative;
     padding-bottom: rem(292);
-
-    &::before,
-    &::after {
-      content: "";
-      position: absolute;
-      background-image: linear-gradient(
-        to top,
-        hsl(220, 36%, 95%),
-        hsl(0, 0%, 100%)
-      );
-    }
-
-    &::before {
-      clip-path: polygon(100% 0, 0 0, 100% 100%);
-      right: -25%;
-      top: -20%;
-      width: rem(1170);
-      height: rem(1170);
-      z-index: -1;
-    }
-
-    &::after {
-      clip-path: polygon(100% 0, 0 0, 0 100%);
-      top: -35%;
-      left: -25%;
-      width: rem(1170);
-      height: rem(1170);
-      z-index: -1;
-    }
   }
 
   &__content {

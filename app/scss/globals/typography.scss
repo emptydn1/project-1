@@ -12,14 +12,16 @@ p {
 }
 
 h1,
-h2 {
+h2,
+h4,
+h5 {
   font-family: var(--font--overpass);
-  font-weight: 800;
+  font-weight: 700;
 }
 
 h1,
 h3,
-h4,
+h5,
 p {
   &:first-letter {
     text-transform: uppercase;
@@ -28,7 +30,7 @@ p {
 
 h1 {
   font-size: rem(45);
-  padding-bottom: rem(42);
+  padding-bottom: rem(142);
 }
 
 h2 {
@@ -41,6 +43,7 @@ h2 {
 
 h3 {
   font-size: rem(30);
+  padding-bottom: rem(20);
 }
 
 h4 {
@@ -51,10 +54,12 @@ h4 {
 
 h5 {
   font-size: rem(18);
+  padding-bottom: rem(24);
 }
 
 p {
   opacity: 0.7;
+  line-height: 1.6;
 }
 
 /* Chỉ cho phép textarea được kéo dãn theo chiều dọc, trông sẽ đẹp hơn, không làm xấu layout */
