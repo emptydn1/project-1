@@ -19,6 +19,7 @@ h2 {
 
 h1,
 h3,
+h4,
 p {
   &:first-letter {
     text-transform: uppercase;
@@ -45,6 +46,7 @@ h3 {
 h4 {
   font-size: rem(24);
   text-transform: capitalize;
+  padding-bottom: rem(37);
 }
 
 h5 {

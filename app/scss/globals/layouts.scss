@@ -1,5 +1,10 @@
 @use '../utils' as *;
 
+.container-sm {
+  max-width: rem(720);
+  margin: 0 auto;
+}
+
 // Spacing
 .container {
   max-width: rem(1170);
@@ -17,7 +22,6 @@
     }
   }
 
-  
   &--md {
     // padding-top: rem(30);
     // padding-right: rem(20);
@@ -31,14 +35,11 @@
     }
   }
 
-
-
-
-
   &--lg {
     padding-top: rem(262);
     padding-bottom: rem(262);
   }
+
   //   &--pall {
   //     padding-top: 4.375rem;
   //     padding-right: 1.5rem;
