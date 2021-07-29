@@ -73,6 +73,9 @@
     &:nth-child(2) .project__info {
       order: -1;
     }
+    &:nth-child(2) img {
+      transform: rotateY(180deg);
+    }
   }
 
   &__image {
