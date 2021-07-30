@@ -1,12 +1,6 @@
 @use '../utils' as *;
 // figcaption
 
-
-
-
-
-
-
 .container-sm {
   max-width: rem(720);
   margin: 0 auto;
@@ -30,9 +24,9 @@
   }
 
   &--md {
-    // padding-top: rem(30);
-    // padding-right: rem(20);
-    // padding-left: rem(20);
+    padding-top: rem(30);
+    padding-right: rem(20);
+    padding-left: rem(20);
 
     @include breakpoint(large) {
       padding-top: rem(192);

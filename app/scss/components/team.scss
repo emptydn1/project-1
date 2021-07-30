@@ -204,6 +204,8 @@
         clip-path: url(#testimonial);
         position: relative;
         z-index: 2;
+        object-fit: cover;
+        object-position: bottom;
       }
       svg {
         content: "";
